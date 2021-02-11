@@ -1,5 +1,6 @@
 import React from 'react'
 import Rating from './Rating';
+import { Media } from 'react-bootstrap';
 
 const Product = () => {
     return (
