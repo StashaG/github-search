@@ -37,6 +37,7 @@ const Rating = (props) => {
         ) : (
           <IoIosStarOutline size={32} onClick={() => setRating(5)} />
         )}
+          {props.numOfReviews}
         </div>
       </div>
     );
